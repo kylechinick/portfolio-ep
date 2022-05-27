@@ -4,99 +4,111 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Portfolio</title>
+    <title>Personal Developer Portfolio</title>
   </head>
-  <body>
-    <header>
-      <h1>Kyle <span>Chinick</span></h1>
-      <p>Front End Developer</p>
-    </header>
-    <main>
-      <div>
-        <h2>Projects</h2>
-        <div>
-          <h3>Japan Vacation</h3>
+  <body class="flex-column-center">
+    <div class="full-site-container">
+      <header>
+        <h1>Kyle <span>Chinick</span></h1>
+        <p class="subtitle">Front End Developer</p>
+      </header>
+      <main>
+        <section id="projects">
+          <h2>Projects</h2>
+          <div class="flex-column-center">
+            <div class="project-card">
+              <h3>Japan Vacation</h3>
+              <p>
+                Travel agency landing page that shares information about several
+                Japan travel packages.
+              </p>
+              <p>Languages Used</p>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+              </ul>
+              <a href="https://github.com/kylechinick/japan-vacation">Github</a>
+            </div>
+            <div class="project-card">
+              <h3>Animal Shelter Adoption Board</h3>
+              <p>
+                Adoption board webpage highlighting animals currently up for
+                adoption at the shelter.
+              </p>
+              <p>Languages Used</p>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+              <a href="https://github.com/kylechinick/animal-shelter">Github</a>
+            </div>
+            <div class="project-card">
+              <h3>Look At My Pet Dot Com</h3>
+              <p>
+                Website soley dedicated to showcasing photos and facts about my
+                dog, Kira.
+              </p>
+              <p>Languages Used</p>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+              <a href="https://github.com/kylechinick/pet-website">Github</a>
+              <a href="https://kylechinick.github.io/pet-website/">Demo</a>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2>About Me</h2>
+          <h3>Background</h3>
+          <img src="./img/kyle_profile_green_fb.jpeg" alt="Photo of Kyle" />
           <p>
-            Travel agency landing page that shares information about several
-            Japan travel packages.
+            I've spent the better part of the past decade working as a project
+            manager, first for epxeriential marketing firms and then for web
+            development agencies. Working with web designers and developers
+            every day quickly made it clear that I'd rather be
+            <em>doing</em> development work instead of managing it.
           </p>
-          <p>Languages Used</p>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Bootstrap</li>
-          </ul>
-          <a href="https://github.com/kylechinick/japan-vacation">Github</a>
-        </div>
-        <div>
-          <h3>Animal Shelter Adoption Board</h3>
           <p>
-            Adoption board webpage highlighting animals currently up for
-            adoption at the shelter.
+            Shortly after realizing it was time for a career change I resigned
+            from my project management role and began self-teaching myself HTML,
+            CSS, and JavaScript before enrolling in Epicodus' C# & React
+            bootcamp to deepen my knowledgebase and accelerate my learning.
           </p>
-          <p>Languages Used</p>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
-          <a href="https://github.com/kylechinick/animal-shelter">Github</a>
-        </div>
-        <div>
-          <h3>Look At My Pet Dot Com</h3>
+          <h3>Interests, Hobbies, and Skills</h3>
           <p>
-            Website soley dedicated to showcasing photos and facts about my dog,
-            Kira.
+            Part of my interest in development as a career comes from my
+            lifelong interest in learning &#8212; something that the development
+            industry provides infinite opportiunities for.
           </p>
-          <p>Languages Used</p>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
-          <a href="https://github.com/kylechinick/pet-website">Github</a>
-          <a href="https://kylechinick.github.io/pet-website/">Demo</a>
-        </div>
-      </div>
-      <div>
-        <h2>About Me</h2>
-        <img src="./img/kyle_profile_green_fb.jpeg" alt="Photo of Kyle" />
-        <h3>Background</h3>
-        <p>
-          I've spent the better part of the past decade working as a project
-          manager, first for epxeriential marketing firms and then for web
-          development agencies. Working with web designers and developers every
-          day quickly made it clear that I'd rather be
-          <em>doing</em> development work instead of managing it.
-        </p>
-        <p>
-          Shortly after realizing it was time for a career change I resigned
-          from my project management role and began self-teaching myself HTML,
-          CSS, and JavaScript before enrolling in Epicodus' C# & React bootcamp
-          to deepen my knowledgebase and accelerate my learning.
-        </p>
-        <h3>Interests, Hobbies, and Skills</h3>
-        <p>
-          Part of my interest in development as a career comes from my lifelong
-          interest in learning &#8212; something that the development industry
-          provides infinite opportiunities for.
-        </p>
-        <p>In my free time you'll likely find me doing the following:</p>
-        <ol>
-          <li><strong>Working</strong> through programming tutorials</li>
-          <li><strong>Tinkering</strong> with my own personal projects</li>
-          <li><strong>Spending</strong> time with my wife and dog</li>
-          <li>
-            <strong>Lifting</strong> weights (and setting them back down!)
-          </li>
-          <li><strong>Playing</strong> old video games for the 9000th time</li>
-        </ol>
-        <p>
-          Secret skill: I can make an unnecessarily realistic eagle screech by
-          whistling. I'm still looking for a way to make use of this skill and
-          will update here when I find one some day...
-        </p>
-      </div>
-    </main>
-    <footer>Website designed and built by Kyle Chinick | 2022</footer>
+          <p>In my free time you'll likely find me doing the following:</p>
+          <ol>
+            <li><strong>Working</strong> through programming tutorials</li>
+            <li><strong>Tinkering</strong> with my own personal projects</li>
+            <li><strong>Spending</strong> time with my wife and dog</li>
+            <li>
+              <strong>Lifting</strong> weights (and setting them back down!)
+            </li>
+            <li>
+              <strong>Playing</strong> old video games for the 9000th time
+            </li>
+          </ol>
+          <p>
+            Secret skill: I can make an unnecessarily realistic eagle screech by
+            whistling. I'm still looking for a way to make use of this skill and
+            will update here when I find one some day...
+          </p>
+        </section>
+      </main>
+      <footer>Website designed and built by Kyle Chinick | 2022</footer>
+    </div>
   </body>
 </html>
