@@ -123,8 +123,8 @@ p {
   border: 2px solid #ed7014;
   margin: 1rem;
   padding: 1rem;
-  max-width: 400px;
-  height: 300px;
+  max-width: 350px;
+  height: 350px;
   border-radius: 6px;
   display: flex;
   flex-direction: column;
@@ -143,7 +143,10 @@ p {
   img,
   i {
     float: none;
-    margin: 1rem;
+    margin: 0.8rem;
     font-size: 1.4rem;
+  }
+  h1 {
+    font-size: 5rem;
   }
 }
