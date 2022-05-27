@@ -13,7 +13,9 @@ Personal developer portfolio website to showcase skillset and background.
 
 ## Description:
 
-This portfolio website is intended for personal use to showcase and expand upon my projects, skills, and strengths as a developer.
+This portfolio website project is intended for personal use to showcase and expand upon my projects, skills, and strengths as a developer.
+
+It features a header, individual sections for projects and "about me" info as well as a minimal footer. The website uses flexbox and media queries for responsiveness.
 
 ## Setup/installation instructions:
 
