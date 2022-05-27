@@ -6,6 +6,8 @@ _Author: Kyle Chinick_
 
 Personal developer portfolio website to showcase skillset and background.
 
+<img src="./img/portfolio-screenshot.png" alt="drawing" width="250"/>
+
 ## Technologies used:
 
 - HTML
@@ -17,7 +19,7 @@ This portfolio website project is intended for personal use to showcase and expa
 
 It features a header, individual sections for projects and "about me" info as well as a minimal footer. The website uses flexbox and media queries for responsiveness.
 
-## Setup/installation instructions:
+## Setup/installation:
 
 To make use of this project for your own portfolio fork or download the repo directly to your machine. After downloading: unzip the package and open in your preferred text editor to personalize the project for your needs.
 
