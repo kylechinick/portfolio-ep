@@ -1,4 +1,4 @@
-# Developer Portfolio
+# Personal Developer Portfolio
 
 _Author: Kyle Chinick_
 
