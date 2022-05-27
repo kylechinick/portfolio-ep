@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   line-height: 1.4;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'JetBrains Mono', monospace;
   /* border: 1px solid red; */
 }
 
@@ -37,8 +37,11 @@ footer {
 }
 
 h1,
-h2 {
+h2,
+h3,
+span {
   text-transform: uppercase;
+  font-family: 'Exo 2', sans-serif;
 }
 
 h1 {
@@ -128,6 +131,14 @@ p {
   justify-content: space-between;
 }
 
+#about-me {
+  border-bottom: 2px solid #ed7014;
+}
+
+.fine-print {
+  font-size: 0.8rem;
+}
+
 @media (max-width: 600px) {
   img,
   i {
@@ -135,12 +146,4 @@ p {
     margin: 1rem;
     font-size: 1.4rem;
   }
-}
-
-.fine-print {
-  font-family: 'JetBrains Mono', monospace;
-}
-
-#about-me {
-  border-bottom: 2px solid #ed7014;
 }
